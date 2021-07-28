@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="resrAssuredTest.PostApi">
+        <methods>
+          <include name="postNewEmployees"/>
+        </methods>
+      </class> <!-- resrAssuredTest.PostApi -->
+      <class name="resrAssuredTest.GetApi">
+        <methods>
+          <include name="postNewEmployees"/>
+        </methods>
+      </class> <!-- resrAssuredTest.GetApi -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

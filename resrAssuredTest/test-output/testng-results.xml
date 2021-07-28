@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[{
+    "connection_id": "2e35d93d-30a1-47dd-a5f2-e00a410e2bbf",
+    "invitation": {
+        "@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation",
+        "@id": "0449def3-f5f8-44e4-a05b-f573be0e3f1e",
+        "recipientKeys": [
+            "DgN6VS1qDxbjvNAqpKV7bZGYHmoj7Df4RroXW8QhG6WG"
+        ],
+        "label": "Faber Agent",
+        "serviceEndpoint": "http://172.31.25.166:8020"
+    },
+    "invitation_url": "http://172.31.25.166:8020?c_i=eyJAdHlwZSI6ICJkaWQ6c292OkJ6Q2JzTlloTXJqSGlxWkRUVUFTSGc7c3BlYy9jb25uZWN0aW9ucy8xLjAvaW52aXRhdGlvbiIsICJAaWQiOiAiMDQ0OWRlZjMtZjVmOC00NGU0LWEwNWItZjU3M2JlMGUzZjFlIiwgInJlY2lwaWVudEtleXMiOiBbIkRnTjZWUzFxRHhianZOQXFwS1Y3YlpHWUhtb2o3RGY0UnJvWFc4UWhHNldHIl0sICJsYWJlbCI6ICJGYWJlciBBZ2VudCIsICJzZXJ2aWNlRW5kcG9pbnQiOiAiaHR0cDovLzE3Mi4zMS4yNS4xNjY6ODAyMCJ9"
+}]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-28T15:57:13 IST" name="Default suite" finished-at="2021-07-28T15:57:21 IST" duration-ms="8846">
+    <groups>
+    </groups>
+    <test started-at="2021-07-28T15:57:13 IST" name="Default test" finished-at="2021-07-28T15:57:21 IST" duration-ms="8846">
+      <class name="resrAssuredTest.FaberConnection">
+        <test-method is-config="true" signature="baseTest()[pri:0, instance:resrAssuredTest.FaberConnection@3a44431a]" started-at="2021-07-28T15:57:13 IST" name="baseTest" finished-at="2021-07-28T15:57:13 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method signature="faber_Create_Invitation()[pri:1, instance:resrAssuredTest.FaberConnection@3a44431a]" started-at="2021-07-28T15:57:13 IST" name="faber_Create_Invitation" finished-at="2021-07-28T15:57:19 IST" duration-ms="6037" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[{
+    "connection_id": "2e35d93d-30a1-47dd-a5f2-e00a410e2bbf",
+    "invitation": {
+        "@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation",
+        "@id": "0449def3-f5f8-44e4-a05b-f573be0e3f1e",
+        "recipientKeys": [
+            "DgN6VS1qDxbjvNAqpKV7bZGYHmoj7Df4RroXW8QhG6WG"
+        ],
+        "label": "Faber Agent",
+        "serviceEndpoint": "http://172.31.25.166:8020"
+    },
+    "invitation_url": "http://172.31.25.166:8020?c_i=eyJAdHlwZSI6ICJkaWQ6c292OkJ6Q2JzTlloTXJqSGlxWkRUVUFTSGc7c3BlYy9jb25uZWN0aW9ucy8xLjAvaW52aXRhdGlvbiIsICJAaWQiOiAiMDQ0OWRlZjMtZjVmOC00NGU0LWEwNWItZjU3M2JlMGUzZjFlIiwgInJlY2lwaWVudEtleXMiOiBbIkRnTjZWUzFxRHhianZOQXFwS1Y3YlpHWUhtb2o3RGY0UnJvWFc4UWhHNldHIl0sICJsYWJlbCI6ICJGYWJlciBBZ2VudCIsICJzZXJ2aWNlRW5kcG9pbnQiOiAiaHR0cDovLzE3Mi4zMS4yNS4xNjY6ODAyMCJ9"
+}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- faber_Create_Invitation -->
+      </class> <!-- resrAssuredTest.FaberConnection -->
+      <class name="resrAssuredTest.AliceAcceptFaberCon">
+        <test-method is-config="true" signature="baseTest()[pri:0, instance:resrAssuredTest.AliceAcceptFaberCon@5884a914]" started-at="2021-07-28T15:57:19 IST" name="baseTest" finished-at="2021-07-28T15:57:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method signature="postTest()[pri:2, instance:resrAssuredTest.AliceAcceptFaberCon@5884a914]" started-at="2021-07-28T15:57:19 IST" name="postTest" finished-at="2021-07-28T15:57:21 IST" duration-ms="2390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- resrAssuredTest.AliceAcceptFaberCon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
